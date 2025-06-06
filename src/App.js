@@ -1,10 +1,6 @@
-// src/App.js
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Canvas from './components/Canvas';
 import StickerButton from './components/StickerButton';
-import star from './assets/star.png';
-import heart from './assets/heart.png';
-import laugh from './assets/laugh.png';
 import './App.css';
 
 const App = () => {
@@ -12,6 +8,10 @@ const App = () => {
   const stageRef = useRef(null);
   const offset = 40;
   const [stickerCount, setStickerCount] = useState(0);
+  const star = "/assets/star.png";
+  const heart = "/assets/heart.png";
+  const laugh = "/assets/laugh.png";
+
 
   const handleAddSticker = (imageSrc) => {
     const newSticker = {
@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1 className="app-heading">🎨 Sticker Canvas Playground</h1>
+      <h1 className="app-heading">Sticker Canvas Playground</h1>
       <Canvas
         stickers={stickers}
         onDelete={handleDeleteSticker}

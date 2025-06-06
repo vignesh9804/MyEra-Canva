@@ -3,7 +3,7 @@
   width: 64px;
   margin: 0 8px;
   cursor: pointer;
-  border: 2px solid #ccc;
+  border: 2px solid #a8bcd9;
   border-radius: 12px;
   transition: all 0.3s ease;
   background-color: transparent;
@@ -16,8 +16,7 @@
 }
 
 .sticker-button:hover {
-  /* background-color: #a7a7a76f; */
-  border-color: #908f8f;
+  border-color: #22447bac;
   transform: scale(1.05);
 }
 

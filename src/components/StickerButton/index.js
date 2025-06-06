@@ -1,4 +1,3 @@
-// src/components/StickerButton.js
 import './index.css'
 
 const StickerButton = ({ imageSrc, onClick }) => {
