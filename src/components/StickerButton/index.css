@@ -1,0 +1,23 @@
+.sticker-button {
+  height: 64px;
+  width: 64px;
+  margin: 0 8px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.sticker-button-inner-emoji {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.sticker-button:hover {
+  /* background-color: #a7a7a76f; */
+  border-color: #908f8f;
+  transform: scale(1.05);
+}
+
